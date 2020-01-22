@@ -1,0 +1,30 @@
+125-130
+
+真就被ascii给坑了
+
+if("a">"z")，这个不是比较字符串之间的大小，其实是在比较两个字符串指针（就是首地址）的大小，这样的比较没有意义。
+string s1="a",s2="z";比较s1>s2，你试试。
+
+“”误判成bool？
+
+乘法溢出
+
+O3
+
+return nullptr
+
+any的转换 system error std::bad_cast
+
+vector与Rec
+
+bigint计算上面的小错误
+
+condition弄错了位置
+
+多变量赋值
+
+连续比较调用（仅调用一次）
+
+transbool写的功能不全
+
+特别想锤jhy *a 字符串 没想到a*字符串也可以
